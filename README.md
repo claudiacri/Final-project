@@ -1,6 +1,9 @@
 # Final-project
 Year-end project for IRONHACK BACKEND AMZ MAR26
 
+<img width="512" height="511" alt="image" src="https://github.com/user-attachments/assets/6bf34d13-5571-4ac5-b935-4daff136bb1b" />
+
+
 
 REQUIREMENTS
 
