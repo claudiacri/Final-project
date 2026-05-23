@@ -17,6 +17,7 @@ The backend application is a robust REST API built using **Java** and **Spring B
 It manages user authentication, bakery profiles, and a dynamic cake catalog that separates standard ready-to-buy cakes from fully customizable ordered cakes using advanced JPA inheritance strategies.
 
 
+<img width="1273" height="1528" alt="mermaid-diagram-2026-05-23-162107" src="https://github.com/user-attachments/assets/6e7a0c7f-ad1f-44b3-b4be-df119ee95bc5" />
 
 
 ## Extra Links
