@@ -5,18 +5,73 @@ Year-end project for IRONHACK BACKEND AMZ MAR26
 
 
 "The project consists of being able to order a cake or a pastry specialty in a place near home, with the possibility of also requesting a customized cake. 
-The idea came to me while talking about the final project with a friend during a birthday party. It is not always easy to find the cake you want, especially if you are away from home!"
+The idea came to me while talking about the final project with a friend during a birthday party. 
+It is not always easy to find the cake you want, especially if you are away from home!"
 
-REQUIREMENTS
+# CAKE ME 🍰
 
-- Have a **Backend Application** following **REST API** best practices, built with **Java** and **Spring Boot**, implementing all CRUD actions and having at least 1 **GET**, **POST**, **PUT/PATCH** and **DELETE** route.
-- Have at least 3 models with a **Parent/Child** relationship and implement the best **JPA Inheritance** strategy (Single Table, Table per Class or Joined) accordingly, e.g.: Account(Parent Class), CheckingAccount(Child Class), SavingsAccount(Child Class).
-- Have a **MYSQL** database to store all the data that is managed by **JPA** in the **Java Application**.
-- Have **Bearer Authentication** implemented with **Spring Security**.
-- Have a **repo on GitHub** for your app.
-You must also:
-- Have **multiple** commits per day and use **feature branch git workflow**.
-- Create **Class Diagram** before starting your project and include them in the Readme file.
-- Create different tasks before starting your project and include them inside your task management application.
-- Have a good folder structure, good naming convention and clean code.
-- Have a good amount of comments when it is **needed only**.
+## Description of the Project
+**CAKE ME**  is a smart web application designed to help users find the perfect cake based on their specific dietary needs, flavor preferences, or special occasions. Instead of browsing through generic food delivery filters, users can express what they want in natural language (e.g., *"I want a vegan chocolate cake"* or *"A birthday cake with fresh cream"*). 
+
+The backend application is a robust REST API built using **Java** and **Spring Boot**, backed by a **MySQL** database.
+It manages user authentication, bakery profiles, and a dynamic cake catalog that separates standard ready-to-buy cakes from fully customizable ordered cakes using advanced JPA inheritance strategies.
+
+---
+
+## Class Diagram
+This project implements a **JOINED** JPA Inheritance strategy for the `Cake` entity hierarchy to ensure clean data normalization and relational integrity in MySQL.
+
+```mermaid
+classDiagram
+    direction TB
+    class User {
+        +Long id
+        +String username
+        +String password
+        +String role
+    }
+
+    class PastryShop {
+        +Long id
+        +String name
+        +String address
+        +String city
+    }
+
+    class Cake {
+        <<abstract>>
+        +Long id
+        +String name
+        +String description
+        +Double basePrice
+        +String imageUrl
+        +PastryShop pastryShop
+    }
+
+    class StandardCake {
+        +Boolean isDietary
+        +String allergens
+        +Integer availableInStock
+    }
+
+    class CustomCake {
+        +Integer maxTiers
+        +Boolean customMessageAllowed
+        +Integer productionDaysNeeded
+    }
+
+    User "*" --> "1" PastryShop : owns/manages
+    PastryShop "1" --> "*" Cake : sells
+    Cake <|-- StandardCake : Inherits (Joined)
+    Cake <|-- CustomCake : Inherits (Joined)
+
+
+## Extra Links
+* **Task Management Board:** [https://github.com/claudiacri/Final-project/edit/main/README.md]
+* **Presentation Slides:** [ https://docs.google.com/presentation/d/1rX2HalxOVseTLP6ho2NyIoC18LEy3l-O9cJ_b_njKI0/edit?usp=sharing ]
+* **API Testing Collection:** [Link to Postman Public Workspace / JSON Export]
+
+---
+
+## Team Members
+* **Claudia C.** - Full Stack Developer  [[GitHub Profile Link](https://github.com/claudiacri)]
