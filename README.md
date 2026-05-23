@@ -16,54 +16,7 @@ It is not always easy to find the cake you want, especially if you are away from
 The backend application is a robust REST API built using **Java** and **Spring Boot**, backed by a **MySQL** database.
 It manages user authentication, bakery profiles, and a dynamic cake catalog that separates standard ready-to-buy cakes from fully customizable ordered cakes using advanced JPA inheritance strategies.
 
----
 
-## Class Diagram
-This project implements a **JOINED** JPA Inheritance strategy for the `Cake` entity hierarchy to ensure clean data normalization and relational integrity in MySQL.
-
-```mermaid
-classDiagram
-    direction TB
-    class User {
-        +Long id
-        +String username
-        +String password
-        +String role
-    }
-
-    class PastryShop {
-        +Long id
-        +String name
-        +String address
-        +String city
-    }
-
-    class Cake {
-        <<abstract>>
-        +Long id
-        +String name
-        +String description
-        +Double basePrice
-        +String imageUrl
-        +PastryShop pastryShop
-    }
-
-    class StandardCake {
-        +Boolean isDietary
-        +String allergens
-        +Integer availableInStock
-    }
-
-    class CustomCake {
-        +Integer maxTiers
-        +Boolean customMessageAllowed
-        +Integer productionDaysNeeded
-    }
-
-    User "*" --> "1" PastryShop : owns/manages
-    PastryShop "1" --> "*" Cake : sells
-    Cake <|-- StandardCake : Inherits (Joined)
-    Cake <|-- CustomCake : Inherits (Joined)
 
 
 ## Extra Links
