@@ -10,7 +10,6 @@ It is not always easy to find the cake you want, especially if you are away from
 
 # CAKE ME 🍰
 
-## Description of the Project
 **CAKE ME**  is a smart web application designed to help users find the perfect cake based on their specific dietary needs, flavor preferences, or special occasions. Instead of browsing through generic food delivery filters, users can express what they want in natural language (e.g., *"I want a vegan chocolate cake"* or *"A birthday cake with fresh cream"*). 
 
 The backend application is a robust REST API built using **Java** and **Spring Boot**, backed by a **MySQL** database.
