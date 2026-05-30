@@ -8,12 +8,12 @@ import jakarta.persistence.*;
 @PrimaryKeyJoinColumn(name = "cake_id")
 public class StandardCake extends Cake {
 
-    @Column(name = "is_dietary")
+    @Column(name = "vegana")
     private Boolean isDietary;
 
     private String allergens;
 
-    @Column(name = "available_in_stock")
+    @Column(name = "disponibile")
     private Integer availableInStock;
 
     public StandardCake() {}
