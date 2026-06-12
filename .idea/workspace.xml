@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c649aca-2d4f-4a5c-97d5-1f181c20cbf2" name="Changes" comment="12.6.26">
+      <change afterPath="$PROJECT_DIR$/CakeMe/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CakeMe/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CakeMe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CakeMe/request.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/.gitattributes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Final-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/CakeMeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/CakeMeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/config/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/config/DataLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/AICakeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/AICakeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/CakeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/CakeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/GreetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/GreetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/PastryShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/PastryShopController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/dto/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/dto/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/dto/RoleToUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/dto/RoleToUserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/Cake.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/Cake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/CustomCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/CustomCake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/PastryShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/PastryShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/StandardCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/StandardCake.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/CakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/CakeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/CustomCakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/CustomCakeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/PastryShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/PastryShopRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/StandardCakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/StandardCakeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/security/EncoderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/security/EncoderConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/security/filters/CustomAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/security/filters/CustomAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/security/filters/CustomAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/security/filters/CustomAuthorizationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/CakeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/CakeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/OpenAIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/OpenAIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/PastryShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/PastryShopService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/cakeme/CakeMeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/test/java/com/example/cakeme/CakeMeApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/CakeMeApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/config/DataLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/AICakeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/CakeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/GreetController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/PastryShopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/RoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/dto/LoginRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/dto/RoleToUserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/Cake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/CustomCake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/PastryShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/StandardCake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/CakeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/CustomCakeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/PastryShopRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/StandardCakeRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/security/EncoderConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/security/filters/CustomAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/security/filters/CustomAuthorizationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/CakeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/OpenAIService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/PastryShopService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/impl/RoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/cakeme/CakeMeApplicationTests.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="56" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;claudiacri&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/claudiacri/Final-project.git&quot;,
+    &quot;accountId&quot;: &quot;e457a62b-ede1-457f-888e-044168375f5f&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.1031276799576184" />
+      <entry key="MS500" value="2.9528116065501866" />
+      <entry key="S2" value="4.9007845807675725" />
+      <entry key="S5" value="5.522219691387005" />
+      <entry key="S10" value="5.754520204359397" />
+      <entry key="S30" value="6.267006325597761" />
+      <entry key="S60" value="8.004181236929256" />
+      <entry key="M2" value="10.931114367727371" />
+      <entry key="M5" value="14.412523945476106" />
+      <entry key="M10" value="16.047963453228526" />
+      <entry key="M15" value="16.66064832628555" />
+      <entry key="M30" value="17.31056974746501" />
+      <entry key="H1" value="17.650198922785563" />
+      <entry key="H2" value="17.823809073556443" />
+      <entry key="H4" value="17.91157954652375" />
+      <entry key="D1" value="17.985217915636476" />
+      <entry key="W1" value="17.997887160565607" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.5027975429225447" />
+      <entry key="MS500" value="2.681954660702705" />
+      <entry key="S2" value="4.807672406749278" />
+      <entry key="S5" value="5.482151981374682" />
+      <entry key="S10" value="5.7339770519573845" />
+      <entry key="S30" value="6.259791634187517" />
+      <entry key="S60" value="7.999955382669909" />
+      <entry key="M2" value="10.928482215499107" />
+      <entry key="M5" value="14.411224699045475" />
+      <entry key="M10" value="16.047256043788014" />
+      <entry key="M15" value="16.660162295468226" />
+      <entry key="M30" value="17.310319083609496" />
+      <entry key="H1" value="17.650071592857838" />
+      <entry key="H2" value="17.82374489798271" />
+      <entry key="H4" value="17.91154732967166" />
+      <entry key="D1" value="17.98521252811435" />
+      <entry key="W1" value="17.997886390476047" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3E7Y1t33tTIORTkxGMskQFOjmhE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/cldcr/IdeaProjects/Final-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cldcr\IdeaProjects\Final-project" />
+      <recent name="C:\Users\cldcr\IdeaProjects\Final-project\.idea\src" />
+      <recent name="C:\Users\cldcr\IdeaProjects\Final-project\.idea" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cldcr\IdeaProjects\Final-project\.idea\src\src\test" />
+      <recent name="C:\Users\cldcr\IdeaProjects\Final-project\.idea\src\main" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c649aca-2d4f-4a5c-97d5-1f181c20cbf2" name="Changes" comment="" />
+      <created>1779530863615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779530863615</updated>
+      <workItem from="1779530864756" duration="710000" />
+      <workItem from="1779539741507" duration="3010000" />
+      <workItem from="1779646611458" duration="1639000" />
+      <workItem from="1779654624480" duration="770000" />
+      <workItem from="1779811686273" duration="254000" />
+      <workItem from="1779911208121" duration="143000" />
+      <workItem from="1780133769860" duration="693000" />
+      <workItem from="1780134660565" duration="313000" />
+      <workItem from="1780148634576" duration="619000" />
+      <workItem from="1780418385525" duration="171000" />
+      <workItem from="1780751800431" duration="1234000" />
+      <workItem from="1781269973240" duration="1019000" />
+    </task>
+    <task id="LOCAL-00001" summary="FINAL PROJECT: Update project structure&#10;Adding structure">
+      <option name="closed" value="true" />
+      <created>1779655239635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1779655239636</updated>
+    </task>
+    <task id="LOCAL-00002" summary="FINAL PROJECT: Update project structure&#10;Adding structure //26.5.26">
+      <option name="closed" value="true" />
+      <created>1779811737280</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1779811737280</updated>
+    </task>
+    <task id="LOCAL-00003" summary="FINAL PROJECT: Update project structure&#10;Adding structure //26.5.26">
+      <option name="closed" value="true" />
+      <created>1779811835335</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1779811835335</updated>
+    </task>
+    <task id="LOCAL-00004" summary="FINAL PROJECT: Update project structure&#10;Adding structure //27.5.26">
+      <option name="closed" value="true" />
+      <created>1779911280583</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779911280583</updated>
+    </task>
+    <task id="LOCAL-00005" summary="FINAL PROJECT: Update project structure&#10;Adding structure //27.5.26">
+      <option name="closed" value="true" />
+      <created>1780756273292</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1780756273292</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1780756336433</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1780756336433</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1780756405126</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1780756405126</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1781270102106</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1781270102106</updated>
+    </task>
+    <task id="LOCAL-00009" summary="12.6.26">
+      <option name="closed" value="true" />
+      <created>1781270364003</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1781270364003</updated>
+    </task>
+    <task id="LOCAL-00010" summary="12.6.26">
+      <option name="closed" value="true" />
+      <created>1781270436970</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1781270436970</updated>
+    </task>
+    <task id="LOCAL-00011" summary="12.6.26">
+      <option name="closed" value="true" />
+      <created>1781270512766</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1781270512766</updated>
+    </task>
+    <task id="LOCAL-00012" summary="12.6.26">
+      <option name="closed" value="true" />
+      <created>1781270613592</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1781270613592</updated>
+    </task>
+    <task id="LOCAL-00013" summary="12.6.26">
+      <option name="closed" value="true" />
+      <created>1781270799805</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1781270799805</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="FINAL PROJECT: Update project structure&#10;Adding structure" />
+    <MESSAGE value="FINAL PROJECT: Update project structure&#10;Adding structure //26.5.26" />
+    <MESSAGE value="FINAL PROJECT: Update project structure&#10;Adding structure //27.5.26" />
+    <MESSAGE value="FINAL PROJECT: Update project structure&#10;Adding structure //6.6.26" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="12.6.26" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.6.26" />
+  </component>
+</project>
