@@ -46,8 +46,6 @@ public class CustomAuthenticationFilter extends UsernamePasswordAuthenticationFi
     protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) throws IOException, ServletException {
         User user = (User) authResult.getPrincipal();
 
-        // Usiamo la stessa chiave segreta "secret" presente nel filtro di autorizzazione
-        Algorithm algorithm = Algorithm.HMAC256("secret".getBytes());
 
         String accessToken = JWT.create()
                 .withSubject(user.getUsername())

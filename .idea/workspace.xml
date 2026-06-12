@@ -5,88 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c649aca-2d4f-4a5c-97d5-1f181c20cbf2" name="Changes" comment="12.6.26">
-      <change afterPath="$PROJECT_DIR$/CakeMe/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CakeMe/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CakeMe/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CakeMe/request.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Final-project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/CakeMeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/CakeMeApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/config/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/config/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/AICakeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/AICakeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/CakeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/CakeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/GreetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/GreetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/PastryShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/PastryShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/RoleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/controllers/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/dto/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/dto/LoginRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/dto/RoleToUserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/dto/RoleToUserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/Cake.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/Cake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/CustomCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/CustomCake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/PastryShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/PastryShop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/StandardCake.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/StandardCake.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/CakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/CakeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/CustomCakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/CustomCakeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/PastryShopRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/PastryShopRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/StandardCakeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/StandardCakeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/security/EncoderConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/security/EncoderConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/security/filters/CustomAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/security/filters/CustomAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/security/filters/CustomAuthorizationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/security/filters/CustomAuthorizationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/CakeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/CakeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/OpenAIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/OpenAIService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/PastryShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/PastryShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/RoleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/impl/RoleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/cakeme/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/java/com/example/cakeme/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/cakeme/CakeMeApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/test/java/com/example/cakeme/CakeMeApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/CakeMeApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/config/DataLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/AICakeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/CakeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/GreetController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/PastryShopController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/RoleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/controllers/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/dto/LoginRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/dto/RoleToUserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/Cake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/CustomCake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/PastryShop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/StandardCake.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/models/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/CakeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/CustomCakeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/PastryShopRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/RoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/StandardCakeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/repositories/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/security/EncoderConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/security/filters/CustomAuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/security/filters/CustomAuthorizationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/CakeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/OpenAIService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/PastryShopService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/impl/RoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/cakeme/services/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/cakeme/CakeMeApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CakeMe/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/CakeMe/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +170,7 @@
       <workItem from="1780148634576" duration="619000" />
       <workItem from="1780418385525" duration="171000" />
       <workItem from="1780751800431" duration="1234000" />
-      <workItem from="1781269973240" duration="1019000" />
+      <workItem from="1781269973240" duration="1325000" />
     </task>
     <task id="LOCAL-00001" summary="FINAL PROJECT: Update project structure&#10;Adding structure">
       <option name="closed" value="true" />
@@ -357,7 +276,23 @@
       <option name="project" value="LOCAL" />
       <updated>1781270799805</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="12.6.26">
+      <option name="closed" value="true" />
+      <created>1781270998547</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1781270998547</updated>
+    </task>
+    <task id="LOCAL-00015" summary="12.6.26">
+      <option name="closed" value="true" />
+      <created>1781271017682</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1781271017682</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
