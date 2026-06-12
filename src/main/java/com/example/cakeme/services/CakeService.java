@@ -22,6 +22,13 @@ public class CakeService {
         return cakeRepository.findAll();
     }
 
+    public List<Cake> getCakesByShopId(Long shopId) {
+        return cakeRepository.findByPastryShopId(shopId);
+    }
+    public List<Cake> getCakesByShopName(String shopName) {
+        return cakeRepository.findByPastryShopNameContainingIgnoreCase(shopName);
+    }
+
     // READ - Ottieni una singola torta tramite ID
     public Cake getCakeById(Long id) {
         return cakeRepository.findById(id)

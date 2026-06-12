@@ -41,6 +41,19 @@ public class CakeController {
         }
     }
 
+    @GetMapping("/shop/{shopId}")
+    public ResponseEntity<List<Cake>> getCakesByShop(@PathVariable Long shopId) {
+        // Sfruttiamo il metodo findByPastryShopId che abbiamo già creato nella CakeRepository!
+        List<Cake> cakes = cakeService.getCakesByShopId(shopId);
+        return new ResponseEntity<>(cakes, HttpStatus.OK);
+    }
+    @GetMapping("/shop-name")
+    public ResponseEntity<List<Cake>> getCakesByShopName(@RequestParam String name) {
+        List<Cake> cakes = cakeService.getCakesByShopName(name);
+        return new ResponseEntity<>(cakes, HttpStatus.OK);
+    }
+
+
     // 3. POST /api/cakes
     @PostMapping
     public ResponseEntity<Cake> createCake(@RequestBody Cake cake) {

@@ -1,10 +1,23 @@
 package com.example.cakeme.models;
 
 import jakarta.persistence.*;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+import com.fasterxml.jackson.annotation.JsonSubTypes;
 
 @Entity
 @Table(name = "cake")
 @Inheritance(strategy = InheritanceType.JOINED)
+// 🟢 Spiega a Jackson che nel JSON ci sarà un campo "type" per riconoscere il figlio
+@JsonTypeInfo(
+        use = JsonTypeInfo.Id.NAME,
+        include = JsonTypeInfo.As.PROPERTY,
+        property = "type"
+)
+// 🟢 Mappa i valori del campo "type" alle classi reali concrete
+@JsonSubTypes({
+        @JsonSubTypes.Type(value = StandardCake.class, name = "standard"),
+        @JsonSubTypes.Type(value = CustomCake.class, name = "custom")
+})
 public abstract class Cake {
 
     @Id
